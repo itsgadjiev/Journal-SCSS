@@ -1,16 +1,16 @@
-.clearance-deals-wrapper{
+.clearance-deals-wrapper {
     width: 100%;
     width: 100%;
     margin-bottom: 20px;
 }
 
-.clearance-deals-head{
+.clearance-deals-head {
     width: 100%;
     justify-content: center;
 }
 
-#clearance-deals{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/sunshine-2000x1200.jpg);
+#clearance-deals {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/sunshine-2000x1200.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,49 +21,52 @@
     height: 700px;
 
 }
-.clearance-deals-card-out{
+
+.clearance-deals-card-out {
     position: absolute;
     display: flex;
     justify-content: space-around;
-  
+
 }
-.clearance-deals-head{
+
+.clearance-deals-head {
     text-align: center;
 }
 
-.clearance-deals-head{
+.clearance-deals-head {
     font-size: 16px;
 }
 
 .clearance-deals-head {
-    span{
+    span {
         font-size: 16px;
-        color: rgba(165,165,165,1);
+        color: rgba(165, 165, 165, 1);
         line-height: 1.5;
     }
-   
+
 }
 
-.grey-span{
+.grey-span {
     font-weight: 400;
     font-size: 16px;
-    color: rgba(165,165,165,1);
+    color: rgba(165, 165, 165, 1);
     line-height: 1.5;
 }
 
-.blue-span{
-        font-weight: 400;
-        font-size: 16px;
-        color: #3B41C1;
-        line-height: 1.5;
+.blue-span {
+    font-weight: 400;
+    font-size: 16px;
+    color: #3B41C1;
+    line-height: 1.5;
 }
 
-.blue-head{
+.blue-head {
     font-size: 25px;
     font-weight: 800;
 
 }
-.green-span{
+
+.green-span {
     font-weight: 400;
     font-size: 16px;
     color: #32B858;
@@ -71,15 +74,15 @@
 }
 
 
-.clearance-deals-head{
-    h3{
+.clearance-deals-head {
+    h3 {
         font-size: 32px;
         color: rgba(238, 238, 238, 1);
         font-weight: 700;
     }
 }
 
-.clearance-deals-card{
+.clearance-deals-card {
     margin-top: 30px;
     height: max-content;
     min-height: max-content;
@@ -88,45 +91,47 @@
     max-width: 690px;
 }
 
-.clearance-deals-card-image{
+.clearance-deals-card-image {
     width: 45ch;
     height: 30ch;
-    img{
+
+    img {
         width: 100%;
         height: 80%;
     }
 }
 
 
-.clearance-card-stats span{
-    padding-right: 1em;
+.clearance-card-stats {
+    span {
+
+        padding-right: 1em;
+    }
 }
 
-.card-info-section{
-    padding-left: 1em; 
+.card-info-section {
+    padding-left: 1em;
 }
 
-.card-info-section{
-   padding-top: 10px;
+.card-info-section {
+    padding-top: 10px;
 }
 
-.price{    
+.price {
     font-size: 20px;
 }
-.lined-span{
+
+.lined-span {
     text-decoration-line: line-through;
 }
 
-.tax-span{
+.tax-span {
     display: block;
     font-size: 12px;
     color: rgba(118, 114, 114, 1);
 }
 
-
-
-
-.counter{
+.counter {
     background-color: rgba(118, 114, 114, 1);
     width: 30px;
     height: 100%;
@@ -138,54 +143,58 @@
     transition: all .05s ease-out;
 }
 
-.add-card-btn{
+.add-card-btn {
     width: 150px;
     background-color: #3B41C1;
     border: none;
 }
 
-.card-action{
+.card-action {
     margin: 10px 0px;
 }
 
-.fa-brands{
+.fa-brands {
     padding-top: 3px;
     padding-right: 3px;
 }
-.fa-envelope{
+
+.fa-envelope {
     color: #782d0d;
     padding-right: 3px;
     padding-top: 4px;
 }
 
-@media screen and (min-width: 760px) and (max-width: 1024px){
-    .col-6{
+@media screen and (min-width: 760px) and (max-width: 1024px) {
+    .col-6 {
         width: 90%;
         left: 5%;
     }
-   
+
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 759px){
-    .clearance-deals-card-image{
+@media screen and (min-width: 320px) and (max-width: 759px) {
+    .clearance-deals-card-image {
         width: 100%;
         height: 100%;
     }
 
-    .col-6{
+    .col-6 {
         width: 90%;
         left: 5%;
     }
-    .clearance-deals-card-image img{
-        width: 100%;
+
+    .clearance-deals-card-image {
+        img {
+            width: 100%;
+        }
     }
 
-    .non-active-col{
+    .non-active-col {
         flex-direction: column;
     }
 
-    #clearance-deals{
+    #clearance-deals {
         height: 900px;
     }
 }
