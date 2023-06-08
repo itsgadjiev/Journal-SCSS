@@ -229,6 +229,10 @@ header {
         position: absolute;
     }
 
+    .burger {
+        margin-left: 0px;
+    }
+
 
 
 }
@@ -236,6 +240,10 @@ header {
 @media screen and (min-width: 280px) and (max-width: 759px) {
     .nonwrap-row-header {
         flex-wrap: nowrap;
+    }
+
+    .burger {
+        margin-left: 0px;
     }
 
     .res-logo-section {
